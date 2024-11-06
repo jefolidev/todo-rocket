@@ -1,0 +1,42 @@
+.taskWrapper {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--gray-500);
+  border-radius: 8px;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+
+  &:hover {
+    cursor: pointer;
+    background-color: var(--gray-400);
+  }
+}
+
+.taskWrapper + .taskWrapper {
+  margin-top: 0.75rem;
+}
+
+.taskWrapper button:first-child {
+  background-color: transparent;
+  color: var(--gray-100);
+  line-height: 0;
+
+  &:hover {
+    color: var(--blue-600);
+
+    cursor: pointer;
+  }
+}
+
+.taskWrapper button {
+  background-color: transparent;
+  color: var(--gray-100);
+  line-height: 0;
+
+  &:hover {
+    color: var(--salmon-500);
+    cursor: pointer;
+  }
+}
