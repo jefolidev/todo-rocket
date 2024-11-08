@@ -19,6 +19,10 @@
   margin-top: 0.75rem;
 }
 
+.taskWrapper span {
+  align-self: center;
+}
+
 .taskWrapper button:first-child {
   background-color: transparent;
   color: var(--gray-100);

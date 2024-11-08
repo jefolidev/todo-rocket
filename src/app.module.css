@@ -69,3 +69,22 @@
     background-color: var(--blue-500);
   }
 }
+
+@media (max-width: 1024px) {
+  .mainContent {
+    padding-inline: 3rem;
+
+    --text-lg: 0.875rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .inputWrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .inputWrapper button {
+    justify-content: center;
+  }
+}
